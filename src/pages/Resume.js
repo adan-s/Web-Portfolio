@@ -3,7 +3,7 @@ import "../App.css"
 import logo from "../logo.svg";
 import resumeimg from "../Images/resumeimg.jpeg";
 import { Link } from "react-router-dom";
-import MyPDF from "../resources/resumeimg.pdf";
+import MyPDF from "../resources/Adan'sResume.pdf";
 export default function Resume() {
   return (
     <div className="resume-page">
