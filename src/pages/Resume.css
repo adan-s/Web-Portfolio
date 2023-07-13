@@ -1,0 +1,31 @@
+
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #22283E;
+    overflow-x: hidden;
+    align-items: center;
+  }
+  footer {
+    background-color: black;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+.img{
+  display: flex;
+  justify-content: center;
+   align-self: center;
+   padding-top: 20px;
+}
+  
+  .footer>p {
+    margin: 0;
+  }

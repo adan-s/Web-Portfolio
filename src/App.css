@@ -1,32 +1,402 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
-  height: 40vmin;
+  height: 8vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  margin-top: 4px;
+  margin-left: -250px;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0D002B;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: start;
+  justify-content: start;
   color: white;
 }
 
 .App-link {
   color: #61dafb;
 }
+.introHeading1{
+
+  margin-top: 140px;
+  color: yellow;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  margin-bottom: 4px;
+}
+.introHeading2{
+  color: #C6CBFD;
+  font-size: 60px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.name{
+color: #7783CB;
+font-size: larger;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.introPara{
+  font-size:large;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 50px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+ 
+  background-image: url('./Images/footerbg.jpg');
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  
+  height: 80px;
+  transition: top 0.3s;
+}
+
+.navbar-logo {
+  color: white;
+  font-size: 20px;
+}
+.logoText{
+  padding: 10px;
+}
+
+.navbar-buttons {
+  display: flex;
+  align-items: center;
+
+}
+
+.navbar-button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.firstDiv{
+  display: flex;
+  flex-direction: row;
+  margin-left: 200px;
+  margin-bottom: 30px;
+}
+.secondDiv{
+  display: flex;
+  flex-direction: row;
+  margin-left: 200px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.firstDivBg{
+  background-image: url('./Images/bg.PNG');
+  background-size: cover;
+}
+
+.secondDivBg{
+  background-image: url('./Images/scndbg.PNG');
+  background-size: cover;
+}
+.navbar-name {
+  font-size: 28px;
+  font-family:'Times New Roman', Times, serif;
+  padding-top: 20px;
+}
+
+
+.btn{
+  margin-left: 10px;
+  margin-right: -210px;
+}
+
+
+.link-li{
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+.image{
+  width: 900px;
+  height: 900px;
+  margin-right: -188px;
+}
+
+.follow{
+  font-size: large;
+  margin-top: 56px;
+  color: #AEABC6;
+}
+
+.social-buttons {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 50px;
+  border: 1px solid white; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.rightSide{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.downloadbtn{
+  width: 160px;
+  margin-top: -300px;
+  margin-left: 300px;
+}
+.button i {
+  color: white;
+  font-size: 24px;
+}
+
+.downloadText{
+  margin-left: 10px;
+}
+
+.contactLink,.download{
+  text-decoration: none;
+  color: white;
+}
+
+.aboutMe{
+  color: #71BB86;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 50px;
+}
+
+.aboutMeIntro{
+  font-family: 'Times New Roman', Times, serif;
+  margin-right: 130px;
+}
+.rightSide1{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.aboutMeImg{
+  margin-top: 70px;
+  margin-left: -25px;
+}
+
+.aboutMePara{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.serviceHeading{
+  width: 100%;
+  margin-left: 520px;
+  margin-top: 30px;
+  color: #5BB27D;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.services{
+  width: 100%;
+  margin-left: 650px;
+  margin-top: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 80px;
+  padding-top: 50px;
+  
+}
+.card1,.card2,.card3,.card4,.card5,.card6{
+  margin-right: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.custom-card {
+  background-color: #14143A;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 12rem;
+  height: 12rem;
+   color: white;
+   
+}
+
+.btn-primary {
+  background-color: transparent;
+
+  border: 1px solid white;
+}
+
+.bbtn:hover {
+  background-color: #6A39B9;
+  border: 1px solid white;
+}
+
+
+.jsbtn:hover {
+  background-color: #FFD602;
+  border: 1px solid white;
+  color: black;
+}
+
+.tbtn:hover {
+  background-color: #00B2C7;
+  border: 1px solid white;
+  color: #17203D;
+}
+
+
+.cbtn:hover {
+  background-color: #079CED;
+  border: 1px solid white;
+}
+
+
+
+.rbtn:hover {
+  background-color:#79C3D4;
+  border: 1px solid white;
+  color: #0D002B;
+}
+
+
+.nbtn:hover {
+  background-color:#000000;
+  border: 1px solid white;
+}
+
+
+.ContactInfo{
+  margin-left: 120px;
+  margin-right: 100px;
+  background-color: #14143A;
+  padding: 30px;
+  border-radius: 20%;
+  margin-top: 30px;
+  padding: 70px;
+  padding-left: 400px;
+  padding-right: 400px;
+  margin-bottom: 50px;
+}
+
+.fa-phone{
+  border-radius: 90%;
+  border: 2px solid ;
+  padding: 20px;
+  font-size: 40px;
+  background-color: #FCDCDF;
+  color: #D67179;
+  margin-right: 20px;
+}
+
+.fa-envelope{
+  border-radius: 90%;
+  border: 2px solid ;
+  padding: 20px;
+  font-size: 40px;
+  background-color: #DDF5E7;
+  color: #7FC04C;
+  margin-right: 20px;
+}
+
+
+.fa-map-marker{
+  border-radius: 90%;
+  border: 2px solid ;
+  padding: 20px;
+  font-size: 40px;
+  background-color: #DFD5F8;
+  color: #8F74E7;
+  margin-right: 28px;
+}
+
+
+
+/* FOOTER CSS */
+
+.footer{
+  width: 100%;
+  background-color: #13063B;
+  color: white;
+  width: 1400px;
+  display: flex;
+  flex-direction: column;
+  background-image: url('./Images/footerbg.jpg');
+  background-size: cover;
+
+}
+.footer-ul{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: center;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgb(255, 253, 253);
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.footerPara{
+  justify-self: center;
+  padding: 30px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+
+
+.social-buttonsFooter {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  margin-bottom: 30px;
+}
+
+.insta:hover{
+  background-color: #F4086C;
+}
+
+
+.twitter:hover{
+  background-color: #1DA1F2;
+}
+
+.linkedin:hover{
+  background-color: #053f79;
+}
+
 
 @keyframes App-logo-spin {
   from {
