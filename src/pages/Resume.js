@@ -3,6 +3,7 @@ import "../App.css"
 import logo from "../logo.svg";
 import resumeimg from "../Images/resumeimg.jpeg";
 import { Link } from "react-router-dom";
+import MyPDF from "../resources/resumeimg.pdf";
 export default function Resume() {
   return (
     <div className="resume-page">
@@ -18,6 +19,16 @@ export default function Resume() {
           <div className="navbar-buttons">
             <a href="https://github.com/adan-s">
               <i className="fab fa-github navbar-button"></i>
+              <button type="button" className="btn btn-success">
+                  <a
+                    href={MyPDF}
+                    download="Adan Salman's Resume.pdf"
+                    className="download"
+                  >
+                    <i class="fa fa-download"></i>
+                    <span className="downloadText">Download CV </span>
+                  </a>
+                </button>
             </a>
           
           </div>

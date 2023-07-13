@@ -3,7 +3,6 @@ import logo from "./Images/logo.png";
 import myimage from "./Images/image.png";
 import secondImg from "./Images/secondimg.png";
 import { Link } from "react-router-dom";
-import MyPDF from "./resources/resumeimg.pdf";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import bootstrapImg from "./Images/bootstrapImg.PNG";
@@ -81,18 +80,9 @@ function App() {
               </div>
             </div>
             <div className="rightSide">
-              <img src={myimage} className="image" alt="Failed to load." />
-              <button type="button" className="btn btn-success downloadbtn">
-                <a
-                  href={MyPDF}
-                  download="Adan Salman's Resume.pdf"
-                  className="download"
-                >
-                  {" "}
-                  <i class="fa fa-download"></i>
-                  <span className="downloadText">Download CV </span>
-                </a>
-              </button>
+                <img src={myimage} className="image" alt="Failed to load." />
+           
+             
             </div>
           </div>
         </div>
@@ -254,25 +244,33 @@ function App() {
           </div>
         </div>
         <div className="contactHeading">
-        <h5 className="serviceHeading">
+          <h5 className="serviceHeading">
             <strong>
-              &nbsp;&nbsp;&nbsp; I&nbsp;&nbsp;&nbsp; W A N T
-              &nbsp;&nbsp;&nbsp; T O &nbsp;&nbsp;&nbsp; H E A R
-              &nbsp;&nbsp;&nbsp; F R O M&nbsp;&nbsp;&nbsp; Y O U
+              &nbsp;&nbsp;&nbsp; I&nbsp;&nbsp;&nbsp; W A N T &nbsp;&nbsp;&nbsp;
+              T O &nbsp;&nbsp;&nbsp; H E A R &nbsp;&nbsp;&nbsp; F R O
+              M&nbsp;&nbsp;&nbsp; Y O U
             </strong>
           </h5>
           <h1 className="services">Contact Me</h1>
         </div>
         <div className="ContactInfo">
           <div className="call">
-          <h5>  <i className="fa fa-phone" ></i>+92 90078601</h5>
+            <h5>
+              {" "}
+              <i className="fa fa-phone"></i>+92 90078601
+            </h5>
           </div>
           <div className="email">
-          <h5>  <i className="fa fa-envelope" ></i>adansalman73@gmail.com</h5>
+            <h5>
+              {" "}
+              <i className="fa fa-envelope"></i>adansalman73@gmail.com
+            </h5>
           </div>
           <div className="location">
-          <h5>  <i className="fa fa-map-marker" ></i>Faisalabad, Pakistan</h5>
-
+            <h5>
+              {" "}
+              <i className="fa fa-map-marker"></i>Faisalabad, Pakistan
+            </h5>
           </div>
         </div>
       </header>
@@ -294,33 +292,34 @@ function App() {
             </Link>
           </li>
         </ul>
-        <hr/>
+        <hr />
         <p className="footerPara">
-        Thank you for visiting my portfolio website! I hope you enjoyed exploring my work. 
-        Feel free to reach out to me for any inquiries or collaboration opportunities. 
-        Remember, creativity knows no bounds, so let's create something extraordinary together!
+          Thank you for visiting my portfolio website! I hope you enjoyed
+          exploring my work. Feel free to reach out to me for any inquiries or
+          collaboration opportunities. Remember, creativity knows no bounds, so
+          let's create something extraordinary together!
         </p>
 
         <div className="social-buttonsFooter">
-                <a
-                  href="https://www.linkedin.com/in/adan-salman/"
-                  className="button linkedin"
-                >
-                  <i className="fab fa-linkedin-in"></i>
-                </a>
-                <a
-                  href="https://www.instagram.com/a.d.a.n_s/"
-                  className="button insta"
-                >
-                  <i className="fab fa-instagram"></i>
-                </a>
-                <a
-                  href="https://twitter.com/your_twitter_account"
-                  className="button twitter"
-                >
-                  <i className="fab fa-twitter"></i>
-                </a>
-              </div>
+          <a
+            href="https://www.linkedin.com/in/adan-salman/"
+            className="button linkedin"
+          >
+            <i className="fab fa-linkedin-in"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/a.d.a.n_s/"
+            className="button insta"
+          >
+            <i className="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://twitter.com/your_twitter_account"
+            className="button twitter"
+          >
+            <i className="fab fa-twitter"></i>
+          </a>
+        </div>
 
         <p>&copy; 2023 Adan Salman. All rights reserved.</p>
       </footer>

@@ -156,16 +156,10 @@ font-family: 'Times New Roman', Times, serif;
 
 }
 
-.rightSide{
-  display: flex;
-  flex-direction: column;
-}
 
-
-.downloadbtn{
+.btn-success{
   width: 160px;
-  margin-top: -300px;
-  margin-left: 300px;
+  justify-self: start;
 }
 .button i {
   color: white;
