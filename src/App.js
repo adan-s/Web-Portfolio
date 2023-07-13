@@ -72,7 +72,7 @@ function App() {
                   <i className="fab fa-instagram"></i>
                 </a>
                 <a
-                  href="https://twitter.com/your_twitter_account"
+                  href="https://twitter.com/adans0_0"
                   className="button twitter"
                 >
                   <i className="fab fa-twitter"></i>
@@ -314,7 +314,7 @@ function App() {
             <i className="fab fa-instagram"></i>
           </a>
           <a
-            href="https://twitter.com/your_twitter_account"
+            href="https://twitter.com/adans0_0"
             className="button twitter"
           >
             <i className="fab fa-twitter"></i>
