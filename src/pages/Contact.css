@@ -1,8 +1,17 @@
-  .contact-form{
-    padding: 10px;
-    margin: 87px;
-  }
-  
+.ContactInfo1{
+  margin-left: 120px;
+  margin-right: 100px;
+  background-color: #14143A;
+  padding: 30px;
+  border-radius: 20%;
+  margin-top: 70px;
+  padding: 70px;
+  padding-left: 400px;
+  padding-right: 400px;
+  margin-bottom: 50px;
+  color: white;
+
+}
 
   h1 {
     margin: 0;
@@ -20,7 +29,7 @@
     margin-left: 160px;
   }
   
-  input[type="text"],
+  /* input[type="text"],
   input[type="email"],
   textarea {
      
@@ -43,7 +52,7 @@
   
   button[type="submit"]:hover {
     background-color: #555;
-  }
+  } */
   
   footer {
       background-color: black;

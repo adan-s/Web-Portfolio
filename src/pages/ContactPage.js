@@ -22,7 +22,7 @@ export default function Contact() {
           </div>
         </div>
       <h1 className="header">Contact Me</h1>
-      <form className="contact-form">
+      {/* <form className="contact-form">
         <div className="form-group">
           <label for="name">Name:</label>
           <input type="text" id="name" name="name" required />
@@ -36,7 +36,27 @@ export default function Contact() {
           <textarea id="message" name="message" required></textarea>
         </div>
         <button type="submit">Send Message</button>
-      </form>
+      </form> */}
+      <div className="ContactInfo1">
+          <div className="call">
+            <h5>
+              {" "}
+              <i className="fa fa-phone"></i>+92 90078601
+            </h5>
+          </div>
+          <div className="email">
+            <h5>
+              {" "}
+              <i className="fa fa-envelope"></i>adansalman73@gmail.com
+            </h5>
+          </div>
+          <div className="location">
+            <h5>
+              {" "}
+              <i className="fa fa-map-marker"></i>Faisalabad, Pakistan
+            </h5>
+          </div>
+        </div>
       <footer className="footer">
         <ul className="footer-ul">
           <li className="footer-li">
