@@ -256,7 +256,6 @@ function App() {
         <div className="ContactInfo">
           <div className="call">
             <h5>
-              {" "}
               <i className="fa fa-phone"></i>+92 90078601
             </h5>
           </div>
