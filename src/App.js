@@ -9,15 +9,15 @@ import jsImg from "./Images/jsImg.PNG";
 import tailwindImg from "./Images/tailwindImg.PNG";
 import cssImg from "./Images/cssImg.PNG";
 import reactImg from "./Images/reactImg.PNG";
-import nextjsImg from "./Images/nextjsImg.PNG";
+import nextJsImg from "./Images/nextjsImg.PNG";
 import Footer from "./components/footer";
-import Navbar from './components/navbar'
+import Navbar from "./components/navbar";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <Navbar title="Portfolio"/>
+        <Navbar title="Portfolio" />
         <div className="firstDivBg">
           <div className="firstDiv">
             <div className="leftSide">
@@ -62,13 +62,11 @@ function App() {
               </div>
             </div>
             <div className="rightSide">
-                <img src={myimage} className="image" alt="Failed to load." />
-           
-             
+              <img src={myimage} className="image" alt="Failed to load." />
             </div>
           </div>
         </div>
-        <div className="secondDivBg">
+        <div className="aboutMePortion">
           <div className="secondDiv">
             <div className="leftSide1">
               <img
@@ -106,7 +104,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="thirdDiv">
+        <div className="skillsPortion">
           <h5 className="serviceHeading">
             <strong>
               &nbsp;&nbsp;&nbsp; M Y&nbsp;&nbsp;&nbsp; S K I L L S
@@ -211,7 +209,7 @@ function App() {
               <Card className="custom-card">
                 <Card.Img
                   variant="top"
-                  src={nextjsImg}
+                  src={nextJsImg}
                   style={{ width: "100px", height: "80px", marginLeft: "47px" }}
                 />
                 <Card.Body>
@@ -255,7 +253,7 @@ function App() {
           </div>
         </div>
       </header>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

@@ -6,8 +6,9 @@ export default function Contact() {
   return (
     <div className="ContactPage">
       <Navbar title="Contact Me" />
-      <h1 className="header">Contact Me</h1>
-      <div className="ContactInfo1">
+    
+      <div className="ContactInfo1 container">
+      <div className="contactIcons">
         <div className="call">
           <h5>
             <i className="fa fa-phone"></i>+92 90078601
@@ -22,6 +23,7 @@ export default function Contact() {
           <h5>
             <i className="fa fa-map-marker"></i>Faisalabad, Pakistan
           </h5>
+        </div>
         </div>
       </div>
       <Footer />

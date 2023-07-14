@@ -1,18 +1,18 @@
 .ContactInfo1{
-  margin-left: 120px;
-  margin-right: 100px;
-  background-color: #14143A;
-  padding: 30px;
-  border-radius: 20%;
-  margin-top: 70px;
-  padding: 70px;
-  padding-left: 400px;
-  padding-right: 400px;
-  margin-bottom: 50px;
+  background-image: url('../Images/contactMeBg.PNG');
   color: white;
-
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin: 120px;
+  margin-left: 250px;
+  margin-bottom: 50px;
+  width: 936px;
+  height: 573px;
 }
-
+.contactIcons{
+  margin-left: 530px;
+  margin-top: 110px;
+}
   h1 {
     margin: 0;
   }
