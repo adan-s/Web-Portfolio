@@ -2,7 +2,6 @@ import "./App.css";
 import logo from "./Images/logo.png";
 import myimage from "./Images/image.png";
 import secondImg from "./Images/secondimg.png";
-import { Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import bootstrapImg from "./Images/bootstrapImg.PNG";
@@ -11,31 +10,14 @@ import tailwindImg from "./Images/tailwindImg.PNG";
 import cssImg from "./Images/cssImg.PNG";
 import reactImg from "./Images/reactImg.PNG";
 import nextjsImg from "./Images/nextjsImg.PNG";
+import Footer from "./components/footer";
+import Navbar from './components/navbar'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className="navbar">
-          <div className="navbar-logo">
-            <img src={logo} className="App-logo" alt="logo" />
-            <span className="logoText">
-              Code with Me
-              <i className="far fa-smile navbar-button"></i>
-            </span>
-          </div>
-          <div className="navbar-name">Portfolio</div>
-          <div className="navbar-buttons">
-            <a href="https://github.com/adan-s">
-              <i className="fab fa-github navbar-button"></i>
-            </a>
-            <button type="button" className="btn btn-success">
-              <a className="contactLink" href="/contact">
-                Contact Me
-              </a>
-            </button>
-          </div>
-        </div>
+       <Navbar title="Portfolio"/>
         <div className="firstDivBg">
           <div className="firstDiv">
             <div className="leftSide">
@@ -273,55 +255,7 @@ function App() {
           </div>
         </div>
       </header>
-      <footer className="footer">
-        <ul className="footer-ul">
-          <li className="footer-li">
-            <Link className="link-li" to="/">
-              Home
-            </Link>
-          </li>
-          <li className="footer-li">
-            <Link className="link-li" to="/contact">
-              Contact Me
-            </Link>
-          </li>
-          <li className="footer-li">
-            <Link className="link-li" to="/resume">
-              Resume
-            </Link>
-          </li>
-        </ul>
-        <hr />
-        <p className="footerPara">
-          Thank you for visiting my portfolio website! I hope you enjoyed
-          exploring my work. Feel free to reach out to me for any inquiries or
-          collaboration opportunities. Remember, creativity knows no bounds, so
-          let's create something extraordinary together!
-        </p>
-
-        <div className="social-buttonsFooter">
-          <a
-            href="https://www.linkedin.com/in/adan-salman/"
-            className="button linkedin"
-          >
-            <i className="fab fa-linkedin-in"></i>
-          </a>
-          <a
-            href="https://www.instagram.com/a.d.a.n_s/"
-            className="button insta"
-          >
-            <i className="fab fa-instagram"></i>
-          </a>
-          <a
-            href="https://twitter.com/adans0_0"
-            className="button twitter"
-          >
-            <i className="fab fa-twitter"></i>
-          </a>
-        </div>
-
-        <p>&copy; 2023 Adan Salman. All rights reserved.</p>
-      </footer>
+      <Footer/>
     </div>
   );
 }
